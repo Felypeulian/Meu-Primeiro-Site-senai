@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote um Pet - Sr Patilhas</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Adote um Pet</h1>
+
+    <form style="text-align: center;">
+
+        <label for="nome">Coloque seu nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <br><br><br>
+
+        <label for="email">Email para contato:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br><br>
+
+        <label for="tel">Telefone para contato:</label>
+        <input type="tel" id="tel" name="tel" required>
+
+        <br><br><br>
+
+        <label for="endereco">Endereço completo:</label>
+        <input type="text" id="endereco" name="endereco" required>
+
+        <br><br><br>
+
+        <label for="tipoPet">Tipo de pet que deseja adotar:</label>
+        <select id="tipoPet" name="tipoPet" required>
+            <option value="">Selecione</option>
+            <option value="cachorro">Cachorro</option>
+            <option value="gato">Gato</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <br><br><br>
+
+        <label for="porte">Porte do animal preferido:</label>
+        <select id="porte" name="porte" required>
+            <option value="">Selecione</option>
+            <option value="pequeno">Pequeno</option>
+            <option value="medio">Médio</option>
+            <option value="grande">Grande</option>
+        </select>
+
+        <br><br><br>
+
+        <label for="moradia">Você mora em:</label>
+        <select id="moradia" name="moradia" required>
+            <option value="">Selecione</option>
+            <option value="casa">Casa</option>
+            <option value="apartamento">Apartamento</option>
+        </select>
+
+        <br><br><br>
+
+        <label for="experiencia">Já teve pets antes?</label>
+        <input type="radio" id="expSim" name="experiencia" value="sim" required>
+        <label for="expSim">Sim</label>
+        <input type="radio" id="expNao" name="experiencia" value="nao">
+        <label for="expNao">Não</label>
+
+        <br><br><br>
+
+        <label for="motivo">Por que deseja adotar?</label><br>
+        <textarea id="motivo" name="motivo" rows="4" cols="40" required></textarea>
+
+        <br><br><br>
+
+        <input type="submit" value="Enviar solicitação">
+
+    </form>
+
+    <br>
+    <p style="text-align: center;">
+    <a href="site.html">Voltar</a>
+    </p>
+</body>
+</html>

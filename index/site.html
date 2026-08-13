@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serpatilhas</title>
+
+    <style>
+        * {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .catalogo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+
+        .pet-card {
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pet-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .pet-info {
+            padding: 16px;
+        }
+
+        .pet-info a {
+            display: inline-block;
+            margin-top: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sr patilhas</h1>
+
+    <p style="text-align: center;">
+        Cuidado e qualidade para o seu pet.
+        Oferecemos produtos e serviços especializados para garantir o bem-estar, a saúde e o
+        conforto do seu animal de estimação, sempre com atendimento de qualidade e dedicação.
+    </p>
+    <br><br>
+
+    <h1><u>Adote um Pet</u></h1>
+    <br><br>
+
+    <div class="catalogo">
+
+        <div class="pet-card">
+            <img src="https://images.amigonaosecompra.com.br/unsafe/1176x0/47a31849-7e7c-46e2-b8a8-51a0cd94fa0a/ba189360-8955-48be-b5d5-b30e229837a7/ba189360-8955-48be-b5d5-b30e229837a7.jpg?v=63934799460"
+                alt="Cookie, cachorrinha de 7 anos">
+            <div class="pet-info">
+                <h2>Cookie</h2>
+                <p class="detalhes">Cachorra • 7 anos • Porte médio</p>
+                <p class="descricao">
+                    Conheça a Cookie! Uma adorável cachorrinha de 7 anos, cheia de amor e energia. Ela é a
+                    companheira perfeita que vai estar sempre grudada em você, oferecendo carinhos e alegrias
+                    nos momentos mais simples da vida. 🐶❤️ Com seu jeito sapeca e brincalhão, vai iluminar
+                    seus dias!
+                </p>
+                <a href="formulario.html">Adote a Cookie</a>
+            </div>
+        </div>
+
+        <div class="pet-card">
+            <img src="https://images.amigonaosecompra.com.br/unsafe/1176x0/49aa3636-fdaf-4890-b8c0-642caf06bea4/87216f2a-6827-411a-8dc2-39dd3e315b42/87216f2a-6827-411a-8dc2-39dd3e315b42.jpeg?v=63950397277"
+                alt="Thor, cachorro de 8 anos">
+            <div class="pet-info">
+                <h2>Thor</h2>
+                <p class="detalhes">Cachorro • 8 anos • Porte grande</p>
+                <p class="descricao">
+                    Thor precisa de um lar, estamos mudando para um apartamento muito pequeno e Thor não
+                    terá nele a mesma quantidade de vida que em uma casa. Ele é um labrador muito dócil,
+                    companheiro e carinhoso, independente, inteligente, nunca ficou doente, se alimenta de
+                    tudo, frutas, legumes e ração, já é castrado e vacinado.
+                </p>
+                <a href="formulario.html">Adote o Thor</a>
+            </div>
+        </div>
+
+        <div class="pet-card">
+            <img src="https://images.amigonaosecompra.com.br/unsafe/0x0/edd9e5d4-59de-45d4-a6f7-a78e72637479/a78cf5fb-3d09-4ec1-af6e-c9904d164ed1/a78cf5fb-3d09-4ec1-af6e-c9904d164ed1.jpeg?v=63953807244"
+                alt="Telecuteco, filhote de 3 meses">
+            <div class="pet-info">
+                <h2>Telecuteco</h2>
+                <p class="detalhes">Telecuteco • 3 Meses • Porte Pequeno</p>
+                <p class="descricao">
+                    Telecuteco é um filhote de apenas 3 meses, com uma pelagem predominantemente branca,
+                    macia e muito limpa. O charme especial fica por conta de uma mancha cinza no topo de
+                    sua cabeça, que realça suas orelhas grandes e expressivas, sempre atentas. Seus olhos
+                    castanhos são curiosos e transmitem uma mistura de timidez e desejo de explorar o mundo
+                    ao seu redor. Ele é pequeno e delicado, mas já demonstra a energia de um gatinho que
+                    adora brincar.
+                </p>
+                <a href="formulario.html">Adote o Telecuteco</a>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

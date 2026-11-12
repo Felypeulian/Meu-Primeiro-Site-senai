@@ -39,30 +39,13 @@ O projeto é estático e não exige PHP, banco de dados ou instalação de depen
 
 ## 🚀 Instalando o projeto
 
-### 1. Baixe os arquivos
+### Baixe os arquivos
 
 1. Neste repositório, clique em **Code → Download ZIP**.
 2. Extraia o arquivo para uma pasta no computador.
 3. Abra a pasta `index` e dê dois cliques em `site.html`.
 
 A página principal será aberta diretamente no navegador. Os links de adoção levam ao arquivo `formulario.html`.
-
-### 2. Alternativa: acesso pelo XAMPP
-
-Se preferir executar o site pelo Apache no Windows:
-
-1. Instale o [XAMPP pelo site oficial](https://www.apachefriends.org/pt_br/index.html). Confira também o [vídeo de instalação indicado](https://youtu.be/9jWACl9_k54).
-2. Renomeie a pasta extraída para `Meu-Primeiro-Site-senai` e mova-a para `C:\xampp\htdocs`.
-3. Abra o **XAMPP Control Panel** e clique em **Start** ao lado de **Apache**.
-4. Acesse [http://localhost/Meu-Primeiro-Site-senai/index/site.html](http://localhost/Meu-Primeiro-Site-senai/index/site.html).
-
-O arquivo principal deve ficar neste caminho:
-
-```text
-C:\xampp\htdocs\Meu-Primeiro-Site-senai\index\site.html
-```
-
-Para mais detalhes sobre o painel e a pasta `htdocs`, consulte a [documentação oficial do XAMPP](https://www.apachefriends.org/faq_windows.html).
 
 ## 🤝 Autor
 
